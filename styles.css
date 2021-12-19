@@ -1,0 +1,61 @@
+body {
+  margin: 20px 100px;
+}
+h1 {
+  position: static;
+  font-size: 64px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 77px;
+}
+h2 {
+  font-family: "Playfair Display", serif;
+}
+h3 {
+  font-size: 24px;
+  color: #fdc435;
+  font-family: "Nunito", sans-serif;
+}
+.form-label {
+  font-family: "Nunito", sans-serif;
+}
+
+.input-information {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+.navbar-brand {
+  font-family: "Comfortaa", cursive;
+  font-weight: 700px;
+}
+.navbar-nav {
+  font-family: "Comfortaa", cursive;
+  font-weight: 500px;
+  font-size: 18px;
+  padding-left: 700px;
+}
+.personal-picture {
+  max-width: 620px;
+  margin-top: -105px;
+  margin-left: -60px;
+}
+footer {
+  font-size: 24px;
+}
+
+.project-description {
+  background: #f5f2fe;
+}
+p {
+  font-family: "Nunito", sans-serif;
+}
+
+@media (max-width: 576px) {
+  .container {
+    text-align: center;
+  }
+  img {
+    margin-bottom: 20px;
+  }
+}
