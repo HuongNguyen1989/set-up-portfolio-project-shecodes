@@ -1,10 +1,17 @@
+:root {
+  --font-family-roboto: "Roboto", sans-serif;
+  --font-family-nunito: "Nunito", sans-serif;
+  --font-family-comfortaa: "Comfortaa", cursive;
+  --yellow: #fdc435;
+}
+
 body {
-  margin: 20px 100px;
+  margin: 20px;
 }
 h1 {
   position: static;
   font-size: 64px;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family-roboto);
   font-weight: bold;
   line-height: 77px;
 }
@@ -13,11 +20,11 @@ h2 {
 }
 h3 {
   font-size: 24px;
-  color: #fdc435;
-  font-family: "Nunito", sans-serif;
+  color: var(--yellow);
+  font-family: var(--font-family-nunito);
 }
 .form-label {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--font-family-nunito);
 }
 
 .input-information {
@@ -26,19 +33,13 @@ h3 {
   width: 400px;
 }
 .navbar-brand {
-  font-family: "Comfortaa", cursive;
+  font-family: var(--font-family-comfortaa);
   font-weight: 700px;
 }
 .navbar-nav {
-  font-family: "Comfortaa", cursive;
+  font-family: var(--font-family-comfortaa);
   font-weight: 500px;
   font-size: 18px;
-  padding-left: 700px;
-}
-.personal-picture {
-  max-width: 620px;
-  margin-top: -105px;
-  margin-left: -60px;
 }
 footer {
   font-size: 24px;
@@ -48,14 +49,21 @@ footer {
   background: #f5f2fe;
 }
 p {
-  font-family: "Nunito", sans-serif;
+  font-family: var(--font-family-nunito);
 }
 
-@media (max-width: 576px) {
-  .container {
+@media (max-width: 768px) {
+  body {
     text-align: center;
   }
-  img {
-    margin-bottom: 20px;
+  h1 {
+    font-size: 42px;
+    line-height: 1.5;
+  }
+  .personal-picture {
+    max-width: 350px;
+  }
+  .hero a {
+    display: inline;
   }
 }
