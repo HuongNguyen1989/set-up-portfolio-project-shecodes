@@ -69,4 +69,8 @@ p {
   .hero a {
     display: inline;
   }
+  .form-cover {
+    display: flex;
+    text-align: left;
+  }
 }
