@@ -6,7 +6,7 @@
 }
 
 body {
-  margin: 20px;
+  margin: 20px 50px;
 }
 h1 {
   position: static;
@@ -46,12 +46,14 @@ footer {
 }
 
 .project-description {
-  background: #f5f2fe;
+  padding: 20px 100px;
 }
 p {
   font-family: var(--font-family-nunito);
 }
-
+.personal-picture {
+  max-width: 600px;
+}
 @media (max-width: 768px) {
   body {
     text-align: center;
