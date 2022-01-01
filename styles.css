@@ -3,10 +3,11 @@
   --font-family-nunito: "Nunito", sans-serif;
   --font-family-comfortaa: "Comfortaa", cursive;
   --yellow: #fdc435;
+  --background-color: #f6f1fe;
 }
 
 body {
-  margin: 20px 50px;
+  margin: 20px 80px;
 }
 h1 {
   position: static;
@@ -23,6 +24,9 @@ h3 {
   color: var(--yellow);
   font-family: var(--font-family-nunito);
 }
+.hero {
+  text-align: left;
+}
 .form-label {
   font-family: var(--font-family-nunito);
 }
@@ -32,6 +36,9 @@ h3 {
   margin: 0 auto;
   width: 400px;
 }
+.container-fluid {
+  padding-left: 0px;
+}
 .navbar-brand {
   font-family: var(--font-family-comfortaa);
   font-weight: 700px;
@@ -40,19 +47,37 @@ h3 {
   font-family: var(--font-family-comfortaa);
   font-weight: 500px;
   font-size: 18px;
+  text-align: left;
 }
 footer {
   font-size: 24px;
 }
 
 .project-description {
-  padding: 20px 100px;
+  padding: 100px auto;
+  text-align: center;
+  margin: 0 auto;
+}
+.project {
+  background: var(--background-color);
+  margin: 0 auto;
+  max-width: 1300px;
+}
+.project-image {
+  padding: 20px;
+  margin: 0 auto;
 }
 p {
   font-family: var(--font-family-nunito);
 }
 .personal-picture {
   max-width: 600px;
+}
+.work-inquiry {
+  background: var(--background-color);
+  max-width: 800px;
+  border-radius: 10px;
+  padding: 30px auto;
 }
 @media (max-width: 768px) {
   body {
